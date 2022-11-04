@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    width:auto;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(159, 159, 159);
+}
+::-webkit-scrollbar-thumb {
+    background:linear-gradient(rgb(107, 150, 111),rgb(94, 94, 94)) ;
+}
+.container {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    padding-right: 23em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(58, 100, 95);
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    margin-left: 9em;
+    font-size: 37px;
+    color:rgb(174, 174, 174);
+}
+nav a {
+    transition: 0.6s ease;
+    opacity: 0.5;
+    padding: 20px;
+    font-size: 20px;
+}
+nav a:hover {
+    opacity: 1;
+}
+.mid {
+    background-color: rgb(204, 204, 204);
+}
+.mid p {
+    padding-top:11em;
+    text-align: center;
+    font-size: 26px;
+}
+.mid h2 {
+    text-align: center;
+    font-size: 29px;
+    font-weight: 900;
+}
+section {
+    background:rgb(204, 204, 204);
+}
+.contact {
+    position: relative;
+    top:1em;
+    color: rgb(58, 100, 95);
+    opacity: 0.5;
+    padding: 5px;
+    margin-top: 3em;
+    margin-left:47%;
+    text-decoration: none;
+    font-size: 23px;
+    transition: 0.6s ease;
+}
+/* .mid img {
+    width: 300px;
+    position: relative;
+    left: 30em;
+    bottom: 10em;
+} */
+.contact:hover {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+}
+.mid2 { 
+    background:white;
+}
+.arrows {
+    margin-left: 50%;   
+    text-decoration:none;
+    font-size: 30px;
+    color:rgb(58, 100, 95) ;
+    position: relative;
+    top: 15px;
+}
+.About {
+    padding-top: 4em;
+    padding-left: 30%;
+    font-size: 22px;
+}
+.All-Info {
+    display: grid;
+    grid-template-columns:200px 200px 200px 250px ;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+.All-Info img {
+    width: 300px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.All-Info h2 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    justify-self: end;
+}
+.pipeline {
+    background-color: rgb(5, 78, 80) ;
+    box-shadow: -20px 0 inset rgb(58, 100, 95) ;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    width: 100%;
+    height: 10px;
+}
+.html1 {
+    grid-column-start:4 ;
+    grid-row-start: 1;
+    justify-self: start;
+    align-self: end;
+}
+.p97 {
+    justify-self: end;
+    align-self: end;
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+.pipeline2 {
+    background-color: rgb(5, 78, 80) ;
+    box-shadow: -40px 0 inset rgb(58, 100, 95) ;
+    grid-column-start: 4;
+    grid-row-start: 3;
+    width: 100%;
+    height: 10px;
+}
+.css3 {
+    grid-column-start:4 ;
+    grid-row-start: 2;
+    justify-self: start;
+    align-self: end;
+}
+.p90 {
+    justify-self: end;
+    align-self: end;
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+.pipeline3 {
+    background-color: rgb(5, 78, 80) ;
+    box-shadow: -130px 0 inset rgb(58, 100, 95) ;
+    grid-column-start: 4;
+    grid-row-start: 4;
+    width: 100%;
+    height: 10px;
+}
+.Js {
+    grid-column-start:4 ;
+    grid-row-start: 3;
+    justify-self: start;
+    align-self: end;
+}
+.p45 {
+    justify-self: end;
+    align-self: end;
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+.exp {
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 34px;
+    font-weight: 900;
+    cursor: pointer;
+    gap: 30px;
+}
+.expe {
+    text-align: center;
+    border: 2px solid rgb(58, 100, 95);
+    border-top-right-radius:50px ;
+    transition: 0.6s ease;
+    padding:30px ;
+}
+.expe:hover {
+    background-color:rgb(58, 100, 95);
+    color: white;
+}
+.proj {
+    justify-self: center;
+    align-self:center;
+    border: 2px solid rgb(58, 100, 95);
+    padding:50px ;
+    border-top-left-radius:50px ;
+    transition: 0.6s ease;
+}
+.proj:hover {
+    background-color:rgb(58, 100, 95);
+    color: white;
+}
+.client {
+    border: 2px solid rgb(58, 100, 95);
+    border-top-left-radius:60px; ;
+    border-top-right-radius: 60px;
+    padding: 50px;
+    transition: 0.6s ease;
+}
+.client:hover {
+    background-color:rgb(58, 100, 95);
+    color: white;
+}
+.Services {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 300px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
+    background-color:rgb(22, 56, 52);
+}
+.content-serv {
+    padding-top: 50px;
+    grid-column-start: 4;
+    grid-row-start:2 ;
+    justify-self: center;
+}
+.serv {
+    grid-column-start: 4;
+    justify-self:center ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 80px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.img {
+    width: 600px;
+    border: 0.3px solid rgb(58, 100, 95);
+    border-top-left-radius: 40px;
+    border-top-right-radius:40px; ;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding:50px 150px;
+}
+.web {
+    position: relative;
+    bottom: 4em;
+    right: 5em;
+    color: white;
+    border: 1px solid rgb(58, 100, 95) ;
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+    height: 170px;
+    background-color:rgb(58, 100, 95) ;
+}
+.web1 {
+    text-align: center;
+}
+.web p {
+    padding-top: 0.3em;
+    color:rgb(244, 241, 241) ;
+}
+.web a {
+    position: relative;
+    top: 1.9em;
+    left: 5em;
+    text-decoration: none;
+    font-size:18px ;
+    color: white;
+    border: 2px solid rgb(15, 42, 39);
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.6s ease;
+}
+.web a:hover {
+    background: rgb(15, 42, 39);
+    color: white;
+}
+footer {
+    background-color:rgb(236, 236, 236);
+    display: grid;
+    grid-template-columns: 300px 300px 340px 300px 300px 300px;
+    grid-template-rows: 300px 200px 200px 60px;
+}
+footer h1 {
+    color: rgb(58, 100, 95);
+    grid-column-start: 3;
+    grid-row-start: 1;
+    justify-self:center ;
+    align-self: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.phone {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    justify-self: center;
+    align-self: end;
+    width: 85%;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px solid rgb(58, 100, 95);
+    border-radius: 10px;
+    color: #000000;
+    transition:0.6s ease ;
+}
+.phone:hover {
+    background-color:rgb(58, 100, 95) ;
+    color: white;
+}
+.phone img {
+    width: 30px;
+    position: relative;
+    top: 0.2em;
+}
+.Gmail {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    justify-self: center;
+    align-self: end;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px solid rgb(58, 100, 95);
+    border-radius: 10px;
+    color: #000000;
+    transition:0.6s ease ;
+}
+.Gmail img{
+    width: 30px;
+    position: relative;
+    top: 0.3em;
+}
+.Gmail:hover {
+    background-color:rgb(58, 100, 95) ;
+    color: white;
+}
+.linkedin {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px solid rgb(58, 100, 95);
+    border-radius: 10px;
+    color: #000000;
+    transition:0.6s ease ;
+}
+.linkedin img{
+    width: 30px;
+    position: relative;
+    top: 0.3em;
+}
+.linkedin:hover {
+    background-color:rgb(58, 100, 95) ;
+    color: white;
+}
+.copy-rights {
+    grid-column-start: 3;
+    grid-row-start: 4;
+    justify-self: center;
+    align-self: center;
+}
+@media screen and (max-width:400px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+    .logo {
+        position: relative;
+        right:240px
+    }
+    nav {
+        position: relative;
+        right: 102px;
+    }
+    .contact {
+        position: relative;
+        right: 16px;
+    }
+    .mid2 {
+        display: none;
+    }
+    .abou {
+        display: none;
+    }
+    /* .About{
+        display: none;
+        position: relative;
+        bottom: 1.5em;
+        right: 1.5em;
+    }
+    .html1{
+        position: relative;
+        right: 30em;
+    }
+    .pipeline {
+        position: relative;
+        right: 30em;
+    }
+    .p97 {
+        position: relative;
+        right: 30em;
+    }
+    .css3{
+        position: relative;
+        right: 30em;
+    }
+    .pipeline2 {
+        position: relative;
+        right: 30em;
+    }
+    .p90 {
+        position: relative;
+        right: 30em;
+    }
+    .Js{
+        position: relative;
+        right: 30em;
+    }
+    .pipeline3 {
+        position: relative;
+        right: 30em;
+    }
+    .p45 {
+        position: relative;
+        right: 30em;
+    } */
+    .exp {
+      display: none!important;
+    }
+    .Services {
+        display: flex;
+        flex-direction: column;
+    }
+    .serv {
+        position: relative;
+        top: 16px;
+    }
+    .content-serv img {
+        width:300px;
+        border-radius: 10px 10px 10px 10px;
+        padding: 10px 50px;
+        position: relative;
+        top: 64px;
+        left:35px;
+    }
+    .web {
+        position: relative; 
+        top: 64px;
+        left: 64px;
+        width: 60%;
+        font-size: 13px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 200px 100px;
+    }
+    footer h1  {
+        position: relative;
+        bottom: 100px;
+    }
+    .phone {
+        position: relative;
+        bottom: 16px;
+        right: 12px;
+        font-size: 18px;
+    }
+    .Gmail {
+        position: relative;
+        top: 130px;
+        font-size: 18px;
+    }
+    .linkedin {
+      font-size: 18px;
+      position: relative;
+      bottom: 40px;
+      padding: 10px 20px;
+    }
+    .copy-rights {
+        position: relative;
+        top: 182px;
+    }
+}
